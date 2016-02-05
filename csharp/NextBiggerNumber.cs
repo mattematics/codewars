@@ -5,7 +5,7 @@ public class Kata
 {
     public static long NextBiggerNumber(long n)
     {
-        // returns the next number after n formed by rearranging digits of n
+        // returns the next number after n formed by rearranging digits of n.
         int length = (int)Math.Floor(Math.Log10(n))+1;
         int[] digits = new int[length];
         int places = 0;
